@@ -1,4 +1,5 @@
 import Banner from './Banner';
+import Course from './Course';
 import Education from './Education';
 
 function MainContent() {
@@ -6,6 +7,7 @@ function MainContent() {
         <main>
             <Banner />
             <Education />
+            <Course />
         </main>
     )
 }
