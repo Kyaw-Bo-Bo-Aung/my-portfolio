@@ -1,18 +1,24 @@
-import { useState } from "react"
+import {Link} from 'react-router-dom'
 
 function Navbar() {
     return (
         <nav>
             <ul className="nav-list">
-                <li className="nav-link">
-                    <a href="">Home</a>
-                </li>
-                <li className="nav-link">
-                    <a href="">Portfolio</a>
-                </li>
-                <li className="nav-link">
-                    <a href="">Contact</a>
-                </li>
+                <Link to="/"> 
+                    <li className="nav-link">
+                        Home
+                    </li>
+                </Link>
+                <Link to="/portfolio"> 
+                    <li className="nav-link">
+                    Portfolio 
+                    </li>
+                </Link>
+                <Link to="/contact"> 
+                    <li className="nav-link">
+                        Contact
+                    </li>
+                </Link>
             </ul>
         </nav>
     )

@@ -1,13 +1,21 @@
-import Banner from './Banner';
-import Course from './Course';
-import Education from './Education';
+import Home from "./Home"
+import { Switch, Route } from "react-router-dom"
+import Portfolio from "./Portfolio"
 
 function MainContent() {
     return (
         <main>
-            <Banner />
-            <Education />
-            <Course />
+            <Switch>
+                <Route exact path="/">
+                    <Home />
+                </Route>
+                <Route path="/portfolio">
+                    <Portfolio />
+                </Route>
+                <Route path="/contact">
+                    <div>contact</div>
+                </Route>
+            </Switch>
         </main>
     )
 }
