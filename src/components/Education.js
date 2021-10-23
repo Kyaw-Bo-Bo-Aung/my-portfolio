@@ -1,5 +1,5 @@
 import Card from "./Card";
-import ytu from "./../images/ytu.png"
+import {ytu} from "./../images/images.js"
 
 function Education() {
     return(

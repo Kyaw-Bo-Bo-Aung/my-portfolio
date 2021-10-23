@@ -1,8 +1,6 @@
 import Card from "./Card"
-import myanmaritc from "../images/myanmaritc.jpg"
-import udemy from "./../images/udemy.png"
-import aprogrammer from "./../images/aprogrammer.jpg"
-import creativecoder from "./../images/creative-coder.jpg"
+import { myanmaritc, udemy, aprogrammer, creativecoder } from "./../images/images.js"
+
 
 function Course() {
     return(

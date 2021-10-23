@@ -3,7 +3,7 @@ import List from "./List"
 function Card(props) {
     return(
         <div className="card">
-            {props.img && <img src={props.img} alt="" />}
+            {props.img && <img className="card-img" src={props.img} alt="" />}
             <div>
                 {props.certificate && <h3 className="card-title">{props.certificate}</h3>}
                 {props.school && <p>{props.school}</p>}
