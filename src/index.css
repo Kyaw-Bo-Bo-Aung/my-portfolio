@@ -6,13 +6,6 @@
   --clr-primary: #6851ee;
   --clr-action: hsl(169, 62%, 45%);
 }
-.background {
-  position: absolute;
-  display: block;
-  top: 0;
-  left: 0;
-  z-index: 0;
-}
 .dark-theme {
   --clr-bcg: #121212;
   --clr-card: #1d1d1d;
@@ -20,8 +13,6 @@
   --clr-font-secondary: #616161;
   --clr-primary: #bb86fc;
   --clr-action: #6adcc7;
-
-
 }
 .light-theme {
   --clr-bcg: #ffffff;
@@ -89,6 +80,20 @@ nav .nav-list .nav-link:hover{
 main{
   margin: auto;
   max-width: 60%;
+}
+/* ========= background ============ */
+.background{
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  background: url('./background.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 /* -------- Banner -------- */
 #banner{

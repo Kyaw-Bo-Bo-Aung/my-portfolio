@@ -1,6 +1,7 @@
 function Banner() {
     return(
         <div>
+            <div className="background"></div>
             <div id="banner">
                 <div>
                     <h1 id="name">Kyaw Bo Bo Aung</h1>
