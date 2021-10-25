@@ -24,10 +24,11 @@ function Portfolio() {
             url: 'dingar.kyawboboaung.me',
             img: Dingar,
             lists: [
-                'Backend: PHP, Laravel',
-                'Frontend: Bootstrap',
-                'Database: MySQL'
-            ]
+                'Bootstarp, PHP, Laravel, MySQL and other plugins',
+                'Laravel DB transaction, multi auth, database notification',
+                'Includes: Admin dashboard, QR scanner, transaction history, notification, account checker',
+            ],
+            link: 'https://dingar.kyawboboaung.me/'
         },
         {
             title: 'Ecommerce',
@@ -35,10 +36,11 @@ function Portfolio() {
             languages: 'PHP, MySQL',
             img: Shop,
             lists: [
-                'Backend: PHP pure',
-                'Frontend: Bootstrap',
-                'Database: MySQL'
-            ]
+                'Bootstrap,PHP pure, MySQL',
+                'Concepts: session for authentication, local storage for shopping cart, database management system for ecommerce project',
+                'Includes: Admin dashboard, authentication filter, products filter, shopping cart, order history'
+            ],
+            link: 'https://shop.kyawboboaung.me/'
         },
         {
             title: 'Delivery web application',
@@ -46,20 +48,22 @@ function Portfolio() {
             languages: 'PHP, MySQL',
             img: Delicopter,
             lists: [
-                'Backend: PHP, Laravel',
-                'Frontend: Bootstrap',
-                'Database: MySQL'
-            ]
+                'PHP, Laravel, Bootstrap, MySQL and spatie/laravel permission',
+                'Concepts: Check delivery condition with status, spatie for role and permission',
+                'Includes: Admin dashboard, delivery form filter, delivery status detail, history',
+            ],
+            link: 'https://delicopter.kyawboboaung.me/'
         },
         {
             title: 'Online MCQs system',
             url: 'mcq.kyawboboaung.me',
             img: Mcq,
             lists: [
-                'Backend: PHP pure',
-                'Frontend: Bootstrap',
-                'Database: MySQL'
-            ]
+                'Bootstrap, PHP pure,  MySQL',
+                'Concepts: session for authentication, manage multiple input, mcq db management',
+                'Includes: Teacher dashboard, student management, pass/fail result'
+            ],
+            link: 'https://mcq.kyawboboaung.me/'
         },
     ])
     return(
@@ -79,17 +83,18 @@ function Portfolio() {
 
             <div>
                 <h1 className="section-header">Portfolio</h1>
-            {portfolios && portfolios.map((portfolio, index) =>
-                (
-                    <Card
-                        key={index}
-                        certificate={portfolio.title}
-                        duration={portfolio.url}
-                        lists={portfolio.lists}
-                        img={portfolio.img}
-                    />
-                )
-            )}
+                    {portfolios && portfolios.map((portfolio, index) =>
+                    (
+                        <Card
+                            key={index}
+                            certificate={portfolio.title}
+                            duration={portfolio.url}
+                            lists={portfolio.lists}
+                            img={portfolio.img}
+                            link={portfolio.link}
+                        />
+                    )
+                )}
             </div>
         </div>
     )

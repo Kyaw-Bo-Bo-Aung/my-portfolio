@@ -6,7 +6,13 @@
   --clr-primary: #6851ee;
   --clr-action: hsl(169, 62%, 45%);
 }
-
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
 .dark-theme {
   --clr-bcg: #121212;
   --clr-card: #1d1d1d;
@@ -152,10 +158,17 @@ main{
   color: var(--clr-primary);
 }
 /* ===== portfolio ====== */
-#portfolio::before{
+#portfolio::before, #contact::before{
   content: '';
   display: block;
-  height: 3.5rem;
+  height: 1rem;
+}
+.portfolio-btn{
+  border: none;
+  background-color: var(--clr-action);
+  padding: 0.5rem 0.7rem;
+  border-radius: 5px;
+  margin: 1rem 0;
 }
 .skill-set{
   display: flex;
@@ -172,6 +185,64 @@ main{
   justify-content: center;
   flex-wrap: wrap;
 }
+/* =========== contact =============== */
+.contact-card{
+  width: 50%;
+  margin: 1rem auto;
+  display: flex;
+  align-items: center;
+  background-color: var(--clr-card);
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.19);
+}
+.contact-title{
+  color: var(--clr-font-secondary);
+  font-size: 1rem;
+  font-weight: 400;
+}
+.contact-content{
+  color: var(--clr-font-primary);
+  font-size: 1.2rem;
+}
+.contact-img{
+  margin-right: 1rem;
+}
+/* =========== contact form ============= */
+#contact-form{
+  background-color: var(--clr-card);
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.19);
+}
+.input-group{
+  display: flex;
+  flex-direction: column;
+}
+.input-group label{
+  color: var(--clr-font-primary);
+  margin: 1rem 0 0.3rem;
+}
+.input-group input, .input-group textarea{
+  padding: 0.5rem;
+  border: none;
+  border-bottom: 1px solid var(--clr-action);
+  background-color: var(--clr-card);
+}
+input:focus, textarea:focus{
+  outline: none;
+}
+.submit-btn{
+  display: block;
+  margin: 1rem auto;
+  padding: 0.6rem;
+  background-color: var(--clr-action);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
 /* ====== toggle btn ======== */
 #toggle-btn{
   position: fixed;
@@ -252,5 +323,8 @@ footer{
     font-size: 1.3rem;
     color: var(--clr-primary);
     font-weight: 500;
+  }
+  .contact-card{
+    width: auto;
   }
 }

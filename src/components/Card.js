@@ -14,6 +14,10 @@ function Card(props) {
                             <List key={index} content={list} />
                         ))}
                 </ul>}
+                {props.link && 
+                    <a href={props.link} target="_blank" className="portfolio-btn">
+                        Demo
+                    </a>}
             </div>
         </div>
     )

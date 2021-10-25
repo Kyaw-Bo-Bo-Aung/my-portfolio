@@ -6,16 +6,14 @@ function Banner() {
                     <h1 id="name">Kyaw Bo Bo Aung</h1>
                     <h2 id="position">Web Developer</h2>
                     <p id="summary">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident laboriosam molestias cum distinctio sit perspiciatis repudiandae corporis illo repellendus architecto cumque, maxime mollitia eaque ad id consectetur totam quae blanditiis!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa error, nulla fuga repellat rem repellendus odit voluptate cumque illum laudantium, eaque aperiam, autem commodi. Nobis reiciendis quas maxime ratione minus?
+                        I am a fast learner, compiled by self-learning and self-motivation. I possess a number of interpersonal skills like good teamwork and communication, responsibility and flexibility. As I am a good scholar at maths and physics, I believe that I have critical thinking and problem solving solving skills. I am always excited to learn new technologies since I am willing to have a challenging career.
                     </p>
                 </div>
             </div>
             <div id="summary-mobile">
                 <h2 className="section-header">About</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident laboriosam molestias cum distinctio sit perspiciatis repudiandae corporis illo repellendus architecto cumque, maxime mollitia eaque ad id consectetur totam quae blanditiis!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa error, nulla fuga repellat rem repellendus odit voluptate cumque illum laudantium, eaque aperiam, autem commodi. Nobis reiciendis quas maxime ratione minus?
+                    I am a fast learner, compiled by self-learning and self-motivation. I possess a number of interpersonal skills like good teamwork and communication, responsibility and flexibility. As I am a good scholar at maths and physics, I believe that I have critical thinking and problem solving solving skills. I am always excited to learn new technologies since I am willing to have a challenging career.
                 </p>
             </div>
         </div>

@@ -13,6 +13,9 @@ import Linkedin from "./linkedin.png"
 import Gmail from "./gmail.png"
 import Moon from "./moon.png"
 import Sun from "./sun.png"
+import Address from "./address.png"
+import Email from "./email.png"
+import Phone from "./phone.png"
 
 export { Html, Css, Bootstrap, ReactPng, Jquery, Js, Php, 
-    Laravel, Mongodb, Mysql, Github, Linkedin, Gmail, Moon, Sun};
+    Laravel, Mongodb, Mysql, Github, Linkedin, Gmail, Moon, Sun, Address, Email, Phone};

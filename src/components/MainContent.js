@@ -1,6 +1,7 @@
 import Home from "./Home"
 import { Switch, Route } from "react-router-dom"
 import Portfolio from "./Portfolio"
+import Contact from "./contact"
 
 function MainContent() {
     return (
@@ -13,7 +14,7 @@ function MainContent() {
                     <Portfolio />
                 </Route>
                 <Route path="/contact">
-                    <div>contact</div>
+                    <Contact />
                 </Route>
             </Switch>
         </main>
