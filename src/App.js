@@ -1,7 +1,6 @@
 import Navbar from "./components/Navbar";
 import MainContent from "./components/MainContent";
 import Footer from "./components/Footer";
-import {BrowserRouter as Router} from 'react-router-dom';
 import { useEffect, useState } from "react";
 import ToggleBtn from "./components/ToggleBtn";
 
@@ -30,12 +29,12 @@ function App() {
   }
 
   return (
-    <Router>
+    <div>
         <Navbar />
         <MainContent />
         <ToggleBtn theme={currentTheme} onToggle={toggleTheme} />
         <Footer />
-    </Router>
+    </div>
   );
 }
 

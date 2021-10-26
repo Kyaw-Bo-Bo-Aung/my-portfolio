@@ -1,7 +1,8 @@
 import Home from "./Home"
 import { Switch, Route } from "react-router-dom"
 import Portfolio from "./Portfolio"
-import Contact from "./contact"
+import Contact from "./Contact"
+import Error404 from "./Error404"
 
 function MainContent() {
     return (
@@ -15,6 +16,9 @@ function MainContent() {
                 </Route>
                 <Route path="/contact">
                     <Contact />
+                </Route>
+                <Route path="*">
+                    <Error404 />
                 </Route>
             </Switch>
         </main>
