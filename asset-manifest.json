@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.57fab9ce.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.ff88e7cc.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.ff88e7cc.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.9bc2dc3f.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.9bc2dc3f.js.map",
+    "static/js/2.fee13e49.chunk.js": "/my-portfolio/static/js/2.fee13e49.chunk.js",
+    "static/js/2.fee13e49.chunk.js.map": "/my-portfolio/static/js/2.fee13e49.chunk.js.map",
+    "index.html": "/my-portfolio/index.html",
+    "static/css/main.57fab9ce.chunk.css.map": "/my-portfolio/static/css/main.57fab9ce.chunk.css.map",
+    "static/js/2.fee13e49.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.fee13e49.chunk.js.LICENSE.txt",
+    "static/media/404-dark.70a36812.png": "/my-portfolio/static/media/404-dark.70a36812.png",
+    "static/media/aprogrammer.c4777ae4.jpg": "/my-portfolio/static/media/aprogrammer.c4777ae4.jpg",
+    "static/media/index.css": "/my-portfolio/static/media/background.d161fb26.png",
+    "static/media/creative-coder.64f0fc25.jpg": "/my-portfolio/static/media/creative-coder.64f0fc25.jpg",
+    "static/media/delicopter.1d4e5d0e.png": "/my-portfolio/static/media/delicopter.1d4e5d0e.png",
+    "static/media/dingar.e3170bba.png": "/my-portfolio/static/media/dingar.e3170bba.png",
+    "static/media/jquery.93794127.png": "/my-portfolio/static/media/jquery.93794127.png",
+    "static/media/mcq.1db48975.png": "/my-portfolio/static/media/mcq.1db48975.png",
+    "static/media/mongodb.ac47c497.png": "/my-portfolio/static/media/mongodb.ac47c497.png",
+    "static/media/myanmaritc.f8ce3eaa.jpg": "/my-portfolio/static/media/myanmaritc.f8ce3eaa.jpg",
+    "static/media/mysql.67c48b01.png": "/my-portfolio/static/media/mysql.67c48b01.png",
+    "static/media/php.15fb4fc7.png": "/my-portfolio/static/media/php.15fb4fc7.png",
+    "static/media/react.f2dc55b6.png": "/my-portfolio/static/media/react.f2dc55b6.png",
+    "static/media/shop.374bc2f0.png": "/my-portfolio/static/media/shop.374bc2f0.png",
+    "static/media/udemy.639d0661.png": "/my-portfolio/static/media/udemy.639d0661.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9bc2dc3f.js",
+    "static/js/2.fee13e49.chunk.js",
+    "static/css/main.57fab9ce.chunk.css",
+    "static/js/main.ff88e7cc.chunk.js"
+  ]
+}
