@@ -28,7 +28,7 @@ function Portfolio() {
                 'Laravel DB transaction, multi auth, database notification',
                 'Includes: Admin dashboard, QR scanner, transaction history, notification, account checker',
             ],
-            link: 'https://dingar.kyawboboaung.me/'
+            link: 'https://damp-ridge-02132.herokuapp.com/'
         },
         {
             title: 'Ecommerce',
@@ -40,7 +40,7 @@ function Portfolio() {
                 'Concepts: session for authentication, local storage for shopping cart, database management system for ecommerce project',
                 'Includes: Admin dashboard, authentication filter, products filter, shopping cart, order history'
             ],
-            link: 'https://shop.kyawboboaung.me/'
+            link: 'https://crud-project-assignment.000webhostapp.com/'
         },
         {
             title: 'Delivery web application',
@@ -52,19 +52,19 @@ function Portfolio() {
                 'Concepts: Check delivery condition with status, spatie for role and permission',
                 'Includes: Admin dashboard, delivery form filter, delivery status detail, history',
             ],
-            link: 'https://delicopter.kyawboboaung.me/'
+            link: 'https://delicopter.herokuapp.com/'
         },
-        {
-            title: 'Online MCQs system',
-            url: 'mcq.kyawboboaung.me',
-            img: Mcq,
-            lists: [
-                'Bootstrap, PHP pure,  MySQL',
-                'Concepts: session for authentication, manage multiple input, mcq db management',
-                'Includes: Teacher dashboard, student management, pass/fail result'
-            ],
-            link: 'https://mcq.kyawboboaung.me/'
-        },
+        // {
+        //     title: 'Online MCQs system',
+        //     url: 'mcq.kyawboboaung.me',
+        //     img: Mcq,
+        //     lists: [
+        //         'Bootstrap, PHP pure,  MySQL',
+        //         'Concepts: session for authentication, manage multiple input, mcq db management',
+        //         'Includes: Teacher dashboard, student management, pass/fail result'
+        //     ],
+        //     link: 'https://mcq.kyawboboaung.me/'
+        // },
     ])
     return(
         <div id="portfolio">

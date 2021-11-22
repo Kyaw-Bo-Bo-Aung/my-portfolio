@@ -1,6 +1,6 @@
 import {Address, Email, Phone} from "../icons/icons"
 import ContactCard from "./ContactCard"
-import { useState } from "react/cjs/react.development"
+import { useState } from "react"
 import Form from "./Form"
 
 function Contact() {
