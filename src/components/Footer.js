@@ -8,8 +8,8 @@ function Footer() {
             </div>
             <div>
                 <a href="https://github.com/Kyaw-Bo-Bo-Aung"><img alt='' className="footer-social-link" src={Github} /></a> 
-                <a href="https://www.linkedin.com/in/kyaw-bo-bo-aung-8a5b641bb/"><img alt='' className="footer-social-link" src={Linkedin} /></a> 
-                <a href='mailto:kbba700@gmail.com'><img alt='' className="footer-social-link" src={Gmail} /> </a>
+                <a href="https://www.linkedin.com/in/kyaw-bo-bo-aung"><img alt='' className="footer-social-link" src={Linkedin} /></a> 
+                <a href='mailto:dev.kyawboboaung@gmail.com'><img alt='' className="footer-social-link" src={Gmail} /> </a>
             </div>
         </footer>
     )

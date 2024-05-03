@@ -233,6 +233,9 @@ main{
   border-radius: 5px;
   box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.19);
 }
+#contact-form input, #contact-form textarea {
+  color: var(--clr-font-secondary)
+}
 .input-group{
   display: flex;
   flex-direction: column;
@@ -255,6 +258,21 @@ input:focus, textarea:focus{
   margin: 1rem auto;
   padding: 0.6rem;
   background-color: var(--clr-action);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.submit-btn-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.submit-btn-wrapper div {
+  display: inline-block;
+  margin: 1rem auto;
+  padding: 0.6rem;
+  background-color: var(--clr-action);
+  color: #000;
   border-radius: 5px;
   border: none;
   cursor: pointer;
