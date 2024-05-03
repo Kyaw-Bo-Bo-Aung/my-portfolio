@@ -8,10 +8,7 @@ import ScrollToTop from './ScrollToTop';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
-      <ScrollToTop />
-      <App />
-    </Router>
+    <App />    
   </React.StrictMode>,
   document.getElementById('root')
 );

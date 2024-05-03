@@ -1,8 +1,8 @@
 import { useState } from "react";
 import Card from "./Card";
 import SkillSet from "./SkillSet";
-import { Html, Css, Bootstrap, ReactPng, Jquery, Js, Php, Laravel, Mongodb, Mysql, Java, NodeJS, Spring, NextJs, PostgreSQL, Docker} from "./../icons/icons.js"
-import { ChatApp, Delicopter, Dingar, Mcq, Shop } from './../portfolios/portfolios'
+import { Html, Css, Bootstrap, ReactPng, Jquery, Js, Php, Laravel, Mongodb, Mysql, Java, NodeJS, Spring, NextJs, PostgreSQL, Docker, Vue} from "./../icons/icons.js"
+import { ChatApp, Delicopter, Dingar, JobFinder, Shop } from './../portfolios/portfolios'
 
 function Portfolio() {
     const [skillSets] = useState([
@@ -12,6 +12,7 @@ function Portfolio() {
         { name: 'Laravel', img: Laravel },
         { name: 'Spring', img: Spring },
         { name: 'React', img: ReactPng },
+        { name: 'Vue', img: Vue },
         { name: 'Next.js', img: NextJs },
         { name: 'MySQL', img: Mysql },
         { name: 'PostgreSQL', img: PostgreSQL },
@@ -52,10 +53,8 @@ function Portfolio() {
             img: ChatApp,
             lists: [
                 'VueJS, VueRouter',
-                'Firestore, FirebaseAuth, FirebaseHosting',
-                'Register, Login',
-                'Middleware',
-                'Realtime database'
+                'Firestore, FirebaseAuth, FirebaseHosting, Realtime database',
+                'Register, Login, Middleware',
             ],
             link: 'https://vue-firebase-blog-51b22.web.app/'
         },
@@ -65,25 +64,34 @@ function Portfolio() {
             languages: 'PHP, MySQL',
             img: Delicopter,
             lists: [
-                'PHP, Laravel, Blade',
-                'Eloquent ORM',
-                'Role based authentication',
+                'PHP, Laravel, Blade, Eloquent ORM, Role based authentication',
                 'Check delivery condition with status',
                 'Admin dashboard, delivery form filter, delivery status detail, detail history',
             ],
             link: 'http://delicopter.000.pe/'
         },
-        // {
-        //     title: 'Online MCQs system',
-        //     url: 'mcq.kyawboboaung.me',
-        //     img: Mcq,
-        //     lists: [
-        //         'Bootstrap, PHP pure,  MySQL',
-        //         'Concepts: session for authentication, manage multiple input, mcq db management',
-        //         'Includes: Teacher dashboard, student management, pass/fail result'
-        //     ],
-        //     link: 'https://mcq.kyawboboaung.me/'
-        // },
+        {
+            title: 'JobFinder - Online Job Portal',
+            url: 'https://github.com/Kyaw-Bo-Bo-Aung/job-finder-frontend',
+            img: JobFinder,
+            lists: [
+                'ReactJs, ContextAPI',
+                'Job List from third-party APIs',
+                'Calling backend service with Axios, RestAPI'
+            ],
+            link: 'https://github.com/Kyaw-Bo-Bo-Aung/job-finder-frontend'
+        },
+        {
+            title: 'E-commerce Shop',
+            url: 'https://github.com/Kyaw-Bo-Bo-Aung/shop.git',
+            img: Shop,
+            lists: [
+                'Pure PHP, MySQL',
+                'Shoping Card, Check Out',
+                'Admin dashboard, Product Management, Stock Management'
+            ],
+            link: 'https://github.com/Kyaw-Bo-Bo-Aung/shop.git'
+        },
     ])
     return(
         <div id="portfolio">
@@ -101,7 +109,7 @@ function Portfolio() {
             </div>
 
             <div>
-                <h1 className="section-header">Portfolio</h1>
+                <h1 className="section-header">Portfolios</h1>
                     {portfolios && portfolios.map((portfolio, index) =>
                     (
                         <Card

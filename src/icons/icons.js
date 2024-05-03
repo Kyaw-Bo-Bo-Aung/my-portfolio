@@ -22,7 +22,8 @@ import Docker from './docker.png'
 import NodeJS from './node-js.png'
 import NextJs from './nextjs.png'
 import Spring from './spring.png'
+import Vue from './vue.png'
 
 
 export { Html, Css, Bootstrap, ReactPng, Jquery, Js, Php, Java, PostgreSQL, Docker, NodeJS, NextJs, Spring,
-    Laravel, Mongodb, Mysql, Github, Linkedin, Gmail, Moon, Sun, Address, Email, Phone};
+    Laravel, Mongodb, Mysql, Github, Linkedin, Gmail, Moon, Sun, Address, Email, Phone, Vue};

@@ -1,11 +1,10 @@
-import { Link } from 'react-router-dom'
 import {Github, Linkedin, Gmail} from './../icons/icons'
 
 function Footer() {
     return (
         <footer>
             <div>
-                Developed by <Link to="/"> <span id="footer-name"> Kyaw Bo Bo Aung</span> </Link>
+                Developed by <span id="footer-name"> Kyaw Bo Bo Aung</span>
             </div>
             <div>
                 <a href="https://github.com/Kyaw-Bo-Bo-Aung"><img alt='' className="footer-social-link" src={Github} /></a> 
