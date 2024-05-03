@@ -1,11 +1,17 @@
 import Card from "./Card"
-import { myanmaritc, udemy, aprogrammer, creativecoder } from "./../images/images.js"
+import { myanmaritc, udemy, aprogrammer, creativecoder, turing } from "./../images/images.js"
 
 
 function Course() {
     return(
         <div>
-            <h2 className="section-header">Certified courses</h2>
+            <h2 className="section-header">Courses & Trainings</h2>
+            <Card
+                key="turing-programming-training-center"
+                certificate="JavaEE, Spring Boot"
+                school="Turing Programming Training Center"
+                img={turing}
+            />
             <Card
                 key="mitc"
                 certificate="PHP web developer bootcamp"

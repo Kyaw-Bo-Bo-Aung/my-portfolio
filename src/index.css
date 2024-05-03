@@ -179,14 +179,23 @@ main{
   margin: 1rem 0;
 }
 .skill-set{
+  margin: 5px;
   display: flex;
   flex-direction: column;
+  border-radius: 5px;
   justify-content: center;
   align-items: center;
   padding: 1.3rem;
+  transition: transform 0.8s ease, box-shadow 0.8s ease;
 }
 .skill-set img{
-  width: 6rem;
+  width: 3rem;
+}
+.skill-set:hover {
+  background-color: var(--clr-card);
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px var(--clr-font-secondary);
 }
 .row{
   display: flex;

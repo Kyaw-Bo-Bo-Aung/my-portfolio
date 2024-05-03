@@ -1,58 +1,77 @@
 import { useState } from "react";
 import Card from "./Card";
 import SkillSet from "./SkillSet";
-import { Html, Css, Bootstrap, ReactPng, Jquery, Js, Php, Laravel, Mongodb, Mysql} from "./../icons/icons.js"
-import { Delicopter, Dingar, Mcq, Shop } from './../portfolios/portfolios'
+import { Html, Css, Bootstrap, ReactPng, Jquery, Js, Php, Laravel, Mongodb, Mysql, Java, NodeJS, Spring, NextJs, PostgreSQL, Docker} from "./../icons/icons.js"
+import { ChatApp, Delicopter, Dingar, Mcq, Shop } from './../portfolios/portfolios'
 
 function Portfolio() {
     const [skillSets] = useState([
+        { name: 'Java', img: Java },
+        { name: 'PHP', img: Php },
+        { name: 'Node.js', img: NodeJS },
+        { name: 'Laravel', img: Laravel },
+        { name: 'Spring', img: Spring },
+        { name: 'React', img: ReactPng },
+        { name: 'Next.js', img: NextJs },
+        { name: 'MySQL', img: Mysql },
+        { name: 'PostgreSQL', img: PostgreSQL },
+        { name: 'MongoDB', img: Mongodb },
+        { name: 'Docker', img: Docker },
         { name: 'HTML', img: Html },
         { name: 'CSS', img: Css },
         { name: 'Bootstrap', img: Bootstrap },
         { name: 'JS', img: Js },
         { name: 'Jquery', img: Jquery },
-        { name: 'React', img: ReactPng },
-        { name: 'PHP', img: Php },
-        { name: 'Laravel', img: Laravel },
-        { name: 'MySQL', img: Mysql },
-        { name: 'MongoDB', img: Mongodb },
     ]);
 
     const [portfolios] = useState([
         {
-            title: 'Emoney web application',
-            url: 'dingar.kyawboboaung.me',
+            title: 'Dingar - Digital Wallet',
+            url: 'http://dingar.infinityfreeapp.com',
             img: Dingar,
             lists: [
                 'Bootstarp, PHP, Laravel, MySQL and other plugins',
                 'Laravel DB transaction, multi auth, database notification',
                 'Includes: Admin dashboard, QR scanner, transaction history, notification, account checker',
+                'credit and debit user\'s wallet', 
+                'payment and receive with QR',
+                'contact checker',
+                'transaction history',
+                'notification',
+                'admin dashboard',
+                'user management',
+                'wallet management',
+                'transaction tracking'
             ],
-            link: 'https://damp-ridge-02132.herokuapp.com/'
+            link: 'http://dingar.infinityfreeapp.com/'
         },
         {
-            title: 'Ecommerce',
-            url: 'shop.kyawboboaung.me',
-            languages: 'PHP, MySQL',
-            img: Shop,
+            title: 'Chat Application',
+            url: 'https://vue-firebase-blog-51b22.web.app',
+            languages: 'VueJs, Firebase',
+            img: ChatApp,
             lists: [
-                'Bootstrap,PHP pure, MySQL',
-                'Concepts: session for authentication, local storage for shopping cart, database management system for ecommerce project',
-                'Includes: Admin dashboard, authentication filter, products filter, shopping cart, order history'
+                'VueJS, VueRouter',
+                'Firestore, FirebaseAuth, FirebaseHosting',
+                'Register, Login',
+                'Middleware',
+                'Realtime database'
             ],
-            link: 'https://crud-project-assignment.000webhostapp.com/'
+            link: 'https://vue-firebase-blog-51b22.web.app/'
         },
         {
-            title: 'Delivery web application',
-            url: 'delicopter.kyawboboaung.me',
+            title: 'Delivery Service',
+            url: 'http://delicopter.000.pe',
             languages: 'PHP, MySQL',
             img: Delicopter,
             lists: [
-                'PHP, Laravel, Bootstrap, MySQL and spatie/laravel permission',
-                'Concepts: Check delivery condition with status, spatie for role and permission',
-                'Includes: Admin dashboard, delivery form filter, delivery status detail, history',
+                'PHP, Laravel, Blade',
+                'Eloquent ORM',
+                'Role based authentication',
+                'Check delivery condition with status',
+                'Admin dashboard, delivery form filter, delivery status detail, detail history',
             ],
-            link: 'https://delicopter.herokuapp.com/'
+            link: 'http://delicopter.000.pe/'
         },
         // {
         //     title: 'Online MCQs system',

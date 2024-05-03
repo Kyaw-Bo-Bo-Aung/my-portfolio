@@ -16,6 +16,13 @@ import Sun from "./sun.png"
 import Address from "./address.png"
 import Email from "./email.png"
 import Phone from "./phone.png"
+import Java from './java.png'
+import PostgreSQL from './postgre.png'
+import Docker from './docker.png'
+import NodeJS from './node-js.png'
+import NextJs from './nextjs.png'
+import Spring from './spring.png'
 
-export { Html, Css, Bootstrap, ReactPng, Jquery, Js, Php, 
+
+export { Html, Css, Bootstrap, ReactPng, Jquery, Js, Php, Java, PostgreSQL, Docker, NodeJS, NextJs, Spring,
     Laravel, Mongodb, Mysql, Github, Linkedin, Gmail, Moon, Sun, Address, Email, Phone};
